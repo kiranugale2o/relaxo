@@ -13,8 +13,10 @@ import { useEffect } from 'react';
 import Singin from './Component/Singin';
 import Homepage from './Component/Homepage';
 import Login from './Component/Login';
+import Data from './Component/Data';
+import Post from './Component/Post';
 function App() {
-
+ 
  
   return (
 <Router>
@@ -26,11 +28,14 @@ function App() {
     <Route path="/singup">
         <Singin/>
     </Route>
+    <Route path="/profile">
+        <Data/>
+    </Route>
     <Route path="/login">
         <Login/>
     </Route>
     <Route path="/">
-    <Home/>
+    <Post/>
     </Route>
  </Switch>
   

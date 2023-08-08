@@ -28,15 +28,17 @@
 .join-part{
    width:30%;
    padding: auto;
-  
+  box-shadow: 0px 0px 1px 0px;
    justify-items: center;
    justify-content: center;
    display: block;
    height: 400px;
     margin:7% auto;
+    
 }
 .title{
     width: 60%;
+    height: 80px;
     padding: auto;
     color: cornflowerblue;
     margin:30px auto;
@@ -59,21 +61,17 @@ b{
 #btn{
   border-radius: 0%;
   padding: auto;
+margin: auto 15px;
   width: 90%;
 }
 
 .login-part{
-    width: 100%;
-  margin: 10px;
+    width: 60%;
+  margin:10px auto;
     display: flex;
     
 }
-#login-text{
-    width:100% ;
-    color:black;
-    font-size: 18px;
-    font-weight: 500;
-}
+
 @media screen and (max-width:600px){
     .container{
         display: block;
@@ -82,8 +80,10 @@ b{
         display: none;
     }
     .join-part{
+        height: 370px;
        width: 90%;
        margin:40% auto;
+       box-shadow: 0cqmin;
        padding: auto;
     }
 }

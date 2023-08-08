@@ -4,18 +4,12 @@ export default function Navbar(){
 
     return(
         <>
-        
-        <nav className="navbar"  style={{ backgroundColor: "#e3f2fd" }}>
-  <div className="container">
-    <a className="navbar-brand" href="#">
-      <img
-        src="logo192.png"
-        alt="Bootstrap"
-        width={30}
-        height={24}
-      />
-    </a>
+
+<nav className="navbar bg-body-white" style={{position:"fixed"}} >
+  <div className="container-fluid">
+    <span className="navbar-brand mb-0 h1">Navbar</span>
   </div>
+  <hr></hr>
 </nav>
 
         </>

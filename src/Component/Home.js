@@ -32,8 +32,8 @@ export default function Home(){
       </Link>
       
 <div className="login-part" >
-    <p className="text-center" id="login-text" >Already have an account ?</p>
-<Link to="/login" >Log In</Link>
+    
+<Link to="/login" >Already have an account ?{">"}</Link>
 </div>
     </div>
  </div>
