@@ -15,6 +15,7 @@ import Homepage from './Component/Homepage';
 import Login from './Component/Login';
 import Data from './Component/Data';
 import Post from './Component/Post';
+import Errorpage from './backend/Errorpage';
 function App() {
  
  
@@ -34,11 +35,15 @@ function App() {
     <Route path="/login">
         <Login/>
     </Route>
+    
+  
     <Route path="/">
     <Post/>
     </Route>
- </Switch>
-  
+    <Route path="*">
+      <Errorpage></Errorpage>
+      </Route> 
+    </Switch>
   </>
 </Router>
     );

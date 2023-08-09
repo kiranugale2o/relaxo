@@ -11,22 +11,32 @@
 }
 .pages-list{
     position: fixed;
-    width: 20%;
+    width: 17%;
    top: 10%;
     
    
-    height: 500px;
+    height: 600px;
    
 }
-
-.border{
+.list-group{
+    
+    height: 630px;
     width: 100%;
-  
-    height: 10%;
 }
-.border:hover{
-    background-color:skyblue;
+.side-nav-btn{
+    width: 100%;
+   
+    height:13% ;
+    font-size: 20px;
+    background-color:white;
+    margin:0px auto;
+   
 }
+.side-nav-btn:hover{
+    color:darkturquoise;
+    
+}
+
 #pagename{
     width: 50%;
     background: none;
@@ -49,3 +59,13 @@
     margin: auto 10% ;
     padding: auto;
 }
+
+.search-user{
+    position: fixed;
+   height: 580px; 
+   box-shadow: 0px 1px 1px 1px;
+    width: 27%;
+    top: 10%;
+right: 10px;
+}
+
